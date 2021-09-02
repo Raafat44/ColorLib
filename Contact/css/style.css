@@ -1,0 +1,255 @@
+body
+{	
+	background-color:#191919;
+    font-family: "Libre Franklin", sans-serif;   
+}
+            /****************Start mainNav****************/
+.mainNav button
+{
+    background-color: #666666;
+     color:white;
+    cursor: pointer;
+    outline: inherit;
+}
+.mainNav a 
+{
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+}
+.mainNav a span
+{
+    color: #d62158;
+}
+.mainNav ul li a
+{
+    font-size:18px;
+    font-weight: bold;
+    margin-right:15px;
+    transition: .3s; 
+}
+.mainNav ul li.active a
+{
+    color: #d62158;
+}
+.mainNav ul li a:hover
+{
+    color: #d62158;
+}
+.mainNav ul li a span
+{
+    color: #e32879;
+}
+
+@media  (max-width:991px)
+{   
+    .mainNav div
+    {
+        margin-left: auto;
+        background-color:#666666; 
+    }
+    .mainNav ul li a,.mainNav ul li.active a
+    {
+        font-size:15px;
+        color: white;
+        transition: none;
+    }
+     .mainNav ul li
+    {
+        padding-left: 20px;
+    }    
+    .mainNav ul li:hover , .mainNav ul li a:hover
+    {
+        background-color: #d62158;
+        color: white;
+    }
+}
+            /****************End mainNav****************/
+            /****************Start iframe****************/
+iframe
+{
+    width: 100%;
+    height: 500px;    
+}
+            /****************End iframe****************/
+            /****************Start Section1****************/
+.firstSection
+{
+    width: 100%;
+    background-color: #222222;
+    color: white;
+}
+.firstSection .pad
+{
+    padding-left: 0px;
+    float: left;
+}
+.firstSection .sizeUp
+{
+    padding-top: 100px;
+}
+.firstSection h3
+{
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.firstSection .media
+{
+    margin-bottom: 15px;
+}
+.firstSection .icons
+{
+    background-color: #393939;
+    width: 74px;
+    height: 74px;  
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstSection .icons i
+{
+    font-size: 30px;
+    color: #d62158;
+}
+.firstSection .media-body h5:nth-child(1)
+{
+    color: #b3b3b3;
+}
+.firstSection .media-body
+{
+    margin-left:30px;
+    padding-top: 8px;
+}
+.firstSection input
+{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    background: #393939;
+    color: #b3b3b3;
+    border: 0px;
+    outline: none;
+    margin-bottom: 30px;
+}
+.firstSection button
+{
+    padding:8px; 
+    color:white;
+    background-color:#e32879;
+    outline: none;
+    width:182px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+.firstSection textarea
+{
+    width:100%;
+    height:110px;
+    background: #393939;
+    color: #b3b3b3;
+    border:none;
+    resize:none;
+    padding-left:20px;
+    padding-top:15px;
+    margin-bottom:45px;
+    outline:none;
+}
+            /****************End Section1****************/
+            /****************Start Footer****************/
+.fifthSection
+{
+	padding:40px 0;
+}
+.fifthSection .name
+{
+	color:white;
+	font-size:45px;
+	font-weight:bold;	
+}
+.fifthSection .dot1
+{
+	margin-left:-7px;
+	font-size:60px;
+	color:#e32879;
+}
+.fifthSection p
+{
+	font-size:17px;
+	color:#a8a8a8;
+}
+.fifthSection ul li
+{
+	color:white;
+	width:35px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	font-size:20px;
+	display:inline-block;
+	background-color:#2a2a2a;
+	line-height:37px;
+	cursor:pointer;
+	border-radius:50%;
+	transition:all 0.7s;
+}
+.fifthSection ul li:hover
+{
+	background-color:#e32879;
+}
+.fifthSection .secondDiv
+{
+	margin-left:25px;
+	margin-top:30px;	
+}
+.fifthSection .secondDiv .Useful
+{
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:23px;
+}
+.fifthSection .thirdDiv
+{
+	margin-left:25px;
+	margin-top:30px;	
+}
+.fifthSection .thirdDiv .Useful
+{	
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:23px;
+}
+.fifthSection .thirdDiv input
+{
+line-height:40px;	
+width:100%;
+background-color:rgba(0,0,0,0);
+border:1px solid #707070;
+color:#8e8e8e;
+    outline: none;
+    padding-left: 20px;
+}
+.fifthSection .thirdDiv button
+{
+	background-color:#e32879;
+	width:100%;
+	margin-top:10px;
+	line-height:35px;
+	color:white;
+	border:1px solid #e32879;
+    font-weight:bold;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+}
+.footer
+{
+	color:#707070;
+	font-size:17px;
+	margin-bottom:10px;
+	
+}
+            /****************End Footer****************/

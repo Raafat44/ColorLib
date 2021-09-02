@@ -1,0 +1,525 @@
+body
+{
+	
+	background-color:#191919;
+    font-family: "Libre Franklin", sans-serif;
+    height: 5000px;
+   
+}
+.main
+{
+    position: fixed;
+    background-color: rgba(0,0,0,1);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+.theCard
+{
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.theCardContainer
+{
+   text-align: center;
+    display: block;
+    height: 595px;
+}
+.cardConter2
+{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+
+}
+.theCardContainer img
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+    
+}
+.theCardContainer i
+{
+    color: white;
+    position: absolute;
+    text-align: right;
+    font-size:20px;
+    padding-top: 60px;
+    right: 1px;
+    opacity: 0.6;
+}
+.theCardContainer i:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+            /****************Start First NavBar****************/
+.mainNav button
+{
+    background-color: #666666;
+     color:white;
+    cursor: pointer;
+    outline: inherit;
+}
+.mainNav a 
+{
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+}
+.mainNav a span
+{
+    color: #d62158;
+}
+.mainNav ul li a
+{
+    font-size:18px;
+    font-weight: bold;
+    margin-right:15px;
+    transition: .3s; 
+}
+.mainNav ul li.active a
+{
+    color: #d62158;
+}
+.mainNav ul li a:hover
+{
+    color: #d62158;
+}
+.mainNav ul li a span
+{
+    color: #e32879;
+}
+@media  (max-width:991px)
+{
+   
+    .mainNav div
+    {
+        margin-left: auto;
+        background-color:#666666; 
+    }
+    .mainNav ul li a,.mainNav ul li.active a
+    {
+        font-size:15px;
+        color: white;
+        transition: none;
+    }
+     .mainNav ul li
+    {
+        padding-left: 20px;
+    }
+    
+    .mainNav ul li:hover , .mainNav ul li a:hover
+    {
+        background-color: #d62158;
+        color: white;
+    }
+}
+            /****************End First NavBar****************/
+            /****************Start Image Section****************/
+.image-section
+{
+    background-image:url("../images/hero-bg.jpg");
+    background-position: center center;
+    width: 100%;
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.image-section button
+{
+    outline: none;
+    padding: 10px;
+    width: 160px;
+    font-weight: bold;
+    color: white;
+    background-color:#d62158;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+            /****************End Image Section****************/
+            /****************Start Second Section****************/
+.secondSection
+{
+    padding-top: 100px;
+    color: white;
+}
+.secondSection button
+{
+    outline: none;
+    padding: 10px;
+    width: 160px;
+    font-weight: bold;
+    color: white;
+    background-color:#d62158;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+            /****************End Second Section****************/
+            /****************Start Third Section****************/
+.thirdSection
+{
+    padding-top:100px;
+}
+.thirdSection .title
+{
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+}
+.thirdSection  .styling
+{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    transition: 0.3s;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.thirdSection  .styling:hover
+{
+    border-bottom:  3px solid #e32879;   
+}
+.thirdSection  .styling img
+{
+    padding-bottom: 10px;
+}
+.thirdSection  .styling h5
+{
+    padding-top:20px;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+.thirdSection  .styling p
+{
+    color: #b3b3b3;
+    padding-bottom: 40px;
+}
+            /****************End Third Section****************/
+            /****************Start Forth Section****************/
+
+.forthSection
+{
+    margin-top: 80px;
+    width:100%;
+    background-color: #222222;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.forthSection .title
+{
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+    
+}
+.forthSection .image1
+{
+    background-image:url('../images/portfolio-1.jpg');
+    background-position: center center;
+    height: 786px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.forthSection .image2
+{
+    background-image:url('../images/portfolio-2.jpg');
+    background-position: center center;
+    height: 393px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.forthSection .image3
+{
+    background-image:url('../images/portfolio-3.jpg');
+    background-position: center center;
+    height: 393px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.forthSection .image4
+{
+    background-image:url('../images/portfolio-4.jpg');
+    background-position: center center;
+    height: 393px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.forthSection .set-bg
+{
+    margin-right: -15px;
+    margin-left: -15px;
+    transition: 0.4s;
+}
+.forthSection  .icon
+{
+    font-size: 30px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    background-color: #e32879;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.forthSection .set-bg:hover .icon
+{
+    opacity: 1;
+    cursor: pointer;  
+}
+.forthSection .set-bg:hover 
+{
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: multiply;  
+}
+            /****************End Forth Section****************/
+            /****************Start Fifth Section****************/
+
+.fifthSection
+{
+    margin-top: 100px;
+    width:100%;
+    margin-bottom: 100px; 
+}
+.fifthSection button
+{
+    outline: none;
+    padding: 10px;
+    width: 160px;
+    font-weight: bold;
+    color: white;
+    background-color:#d62158;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.fifthSection .media
+{
+    color: white;
+}
+.fifthSection .media h1
+{
+    color: #e32879;
+    font-weight: bold;
+    font-size: 60px;
+    padding-right: 30px;
+}
+.fifthSection .media p
+{
+    color: #b3b3b3;
+}
+            /****************End Fifth Section****************/
+            /****************start Section7****************/
+
+.section7
+{
+    background-image:url('../images/ctc-bg.jpg');
+    background-size: cover;
+    padding:50px 0;
+    text-align: center;
+    height: 450px;
+}
+
+.section7 h1
+{
+    margin: 30px 0 40px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section7 p
+{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.section7 button
+{
+	margin-top:30px;
+	line-height:40px;
+	background-color:white;
+	width:170px;
+	font-size:20px;
+	font-weight:bold;
+	border:1px solid white;
+	color:#e32879;
+}
+            /****************End Section7****************/
+            /****************Start Section8****************/
+.section8
+{
+    background-color: #222222;
+    text-align: center;
+}
+.section8
+{
+    background-color: #222222;
+    width:100%;
+    padding-bottom: 100px;
+}
+.section8 h3
+{
+    color: white;
+}
+.section8 p
+{
+    color:#e32879;
+    
+}
+
+.sizing
+{
+    padding-top:50px;
+}
+.border
+{
+ border-radius: 50%;   
+}
+
+.sizing2
+{
+    float: left;
+}
+.card
+{
+    border: 0px;
+    border-radius: 0px;
+    background-color: #191919;
+}
+
+@media (min-width:992px)
+{
+    .mb-3
+{
+    height:330px;   
+}
+    .card-img
+{
+    height: 330px;
+}    
+    .card-body 
+{
+    height: 330px;
+}
+}
+            /****************End Section8****************/
+            /****************End footer****************/
+.footer
+{
+	padding:40px 0;
+}
+.footer .name
+{
+	color:white;
+	font-size:45px;
+	font-weight:bold;
+	
+}
+.footer .dot1
+{
+	margin-left:-7px;
+	font-size:60px;
+	color:#e32879;
+}
+.footer p
+{
+	font-size:17px;
+	color:#a8a8a8;
+}
+.footer ul li
+{
+	color:white;
+	width:35px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	font-size:20px;
+	display:inline-block;
+	background-color:#2a2a2a;
+	line-height:37px;
+	cursor:pointer;
+	border-radius:50%;
+	transition:all 0.7s;
+}
+.footer ul li:hover
+{
+	background-color:#e32879;
+}
+.footer .secondDiv
+{
+	margin-left:25px;
+	margin-top:30px;
+	
+}
+.footer .secondDiv .Useful
+{
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:23px;
+}
+.footer .thirdDiv
+{
+	margin-left:25px;
+	margin-top:30px;
+	
+}
+.footer .thirdDiv .Useful
+{
+	
+		color:white;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:23px;
+}
+.footer .thirdDiv input
+{
+line-height:40px;	
+width:100%;
+background-color:rgba(0,0,0,0);
+border:1px solid #707070;
+color:#8e8e8e;
+}
+.footer .thirdDiv button
+{
+	background-color:#e32879;
+	width:100%;
+	margin-top:10px;
+	line-height:35px;
+	color:white;
+	border:1px solid #e32879;
+		font-weight:bold;
+}
+.footer2
+{
+	color:#707070;
+	font-size:17px;
+	margin-bottom:10px;	
+}
+            /****************End footer****************/
